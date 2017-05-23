@@ -1,0 +1,22 @@
+{
+  "name": "express-regex-bug",
+  "version": "1.0.0",
+  "description": "Demonstrates a bug with regex matching in Express' routing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joseph14078/express-regex-bug.git"
+  },
+  "author": "Joseph Judge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Joseph14078/express-regex-bug/issues"
+  },
+  "homepage": "https://github.com/Joseph14078/express-regex-bug#readme",
+  "dependencies": {
+    "express": "4.15.3"
+  }
+}
