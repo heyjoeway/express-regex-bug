@@ -14,6 +14,10 @@ node index.js
 
 The server runs on port 3000 by default, and will print some example URLs in console.
 
+Here is a GIF demonstrating the outcome:
+
+![alt text](./demo.gif "Demo GIF")
+
 ## Regex
 
 The regex tested is as follows:
