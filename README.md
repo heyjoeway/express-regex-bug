@@ -22,8 +22,24 @@ The regex tested is as follows:
 /\/test\/[a-f0-9]{24}/g
 ```
 
-## Testing Configuration
+## Additional Info
+
+The output of
+```
+/\/test\/[a-f0-9]{24}/g.test("/test/b60873051996f8378607fa34")
+```
+will always return true.
+
+## Testing Configurations
+
+### Config 1
 
 - Windows 10 v1703 Build 15063.296
+- NodeJS v7.10.0
+- Express v4.15.3
+
+### Config 2
+
+- Manjaro i3 17.0.1
 - NodeJS v7.10.0
 - Express v4.15.3
