@@ -9,7 +9,7 @@ Exactly half of the time a URL is visited that matches the regex, it will route 
 ## Demonstration
 
 ```
-    node index.js
+node index.js
 ```
 
 The server runs on port 3000 by default, and will print some example URLs in console.
@@ -19,7 +19,7 @@ The server runs on port 3000 by default, and will print some example URLs in con
 The regex tested is as follows:
 
 ```
-    /\/test\/[a-f0-9]{24}/g
+/\/test\/[a-f0-9]{24}/g
 ```
 
 ## Testing Configuration
