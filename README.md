@@ -1,3 +1,10 @@
+# UPDATE
+### This is a symptom of reusing the same RegExp object in JS to evalute strings multiple times with the 'g' (global) flag.
+This is a topic that seems to have been debated for a while and has confused quite a few individuals. (https://bugzilla.mozilla.org/show_bug.cgi?id=237111)
+The behaviour is explicitly intended, however.
+
+The original README is as follows:
+
 # Express Regex Bug
 
 This repository is meant to demonstrate a bug with regex matching in Express` routing.
